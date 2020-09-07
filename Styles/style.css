@@ -106,6 +106,7 @@ section.doctors .card {
   border: none;
   position: relative;
   cursor: pointer;
+  margin-top: 20px;
 }
 section.doctors .card h3 {
   font-weight: 600;
@@ -180,10 +181,6 @@ section.register .resultSection p {
 section.register form {
   font-size: 16px;
 }
-section.register form h3 {
-  font-weight: 600;
-  font-size: 18px;
-}
 section.register form .meg {
   font-size: 14px;
   display: none;
@@ -199,6 +196,56 @@ section.register form .invalid {
   display: none;
 }
 
+section.news .card {
+  margin-top: 20px;
+  height: 430px;
+}
+section.news .card .card-body {
+  background-color: #f9f9f9;
+}
+section.news .card .card-body time {
+  font-size: 12px;
+  color: #757575;
+}
+section.news .card .card-body h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+section.news .card .card-body .card-text {
+  color: #757575;
+  font-size: 13px;
+}
+section.news .card .card-body .heading {
+  font-size: 13px;
+  color: #757575;
+}
+
+section.contact .social-icon {
+  background-color: #393939;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: #ffff;
+}
+
+footer.content .text {
+  font-size: 14px;
+  color: #757575;
+}
+footer.content .socail-icon {
+  border-radius: 50%;
+  background-color: transparent;
+  color: #202020;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+footer.content .socail-icon:hover {
+  color: #ffff;
+  background-color: #4267b2;
+  transition: all 0.25s ease-in-out;
+}
+
 header.bg-img nav.navbar-light .navbar-nav .btn, section.bg-color p a, section.test .resultSection div .btn, section.test form .btn, section.register form .btn {
   color: #ffff;
   background-color: #a5c422;
@@ -210,8 +257,8 @@ header.bg-img nav.navbar-light .navbar-nav .btn:hover, section.bg-color p a:hove
   transition: all 0.25s ease-in-out;
 }
 
-section.bg-color h2, section.doctors h2 {
-  font-size: 40px;
+section.bg-color h2, section.doctors h2, section.register form h2, section.news h2, section.contact h2 {
+  font-size: 35px;
   font-weight: 600;
 }
 
